@@ -91,6 +91,9 @@
     var flat = group.getAttribute('data-r-group') === 'fade';   // fade only, so every card stays on the same line
     gsap.from(group.children, {
       y: flat ? 0 : 70, opacity: 0, duration: flat ? 0.9 : 1.2, stagger: 0.12,
+      // a CSS transform transition on the cards would drag behind this tween, so switch it off while it runs
+      onStart: function () { gsap.set(group.children, { transition: 'none' }); },
+      onComplete: function () { gsap.set(group.children, { clearProps: 'transform,transition' }); },
       scrollTrigger: { trigger: group, start: 'top 85%', once: true }
     });
   });

@@ -216,7 +216,7 @@
   width: 100%;
   max-width: 1282px;
   margin-inline: auto;
-  padding: 0 14px;
+  padding: 0 32px;
   border-radius: var(--radius-card);
   overflow: hidden;
   isolation: isolate;
@@ -232,7 +232,7 @@
 .cta__wordmark {
   position: absolute;
   left: auto;
-  right: 40px;
+  right: 32px;
   bottom: 120px;
   display: flex;
   align-items: flex-end;
