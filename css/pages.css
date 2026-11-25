@@ -401,7 +401,9 @@
 
 /* ----- contact page ----- */
 .cinfo-sec { background: var(--bg-200); padding-block: 90px 30px; }
-.cinfo__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.cinfo-sec > .container { max-width: 1310px; }
+.cinfo__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+.cinfo { margin-inline: 14px; }
 .cinfo { display: flex; flex-direction: column; gap: 8px; min-height: 190px; padding: 28px; border-radius: var(--radius-card); background: var(--white); border: 1px solid var(--border-300); transition: transform .5s var(--ease-out); }
 .cinfo:hover { transform: translateY(-6px); }
 .cinfo__label { font-size: 12px; font-weight: 700; letter-spacing: .9px; text-transform: uppercase; color: var(--accent-700); }
@@ -439,6 +441,8 @@ a.cinfo__val:hover { color: var(--accent-700); }
 /* ----- responsive ----- */
 @media (max-width: 1100px) {
   .plans__grid, .addons__grid, .cinfo__grid { grid-template-columns: repeat(2, 1fr); }
+  .cinfo__grid { gap: 14px; }
+  .cinfo { margin-inline: 0; }
   .bgrid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 991px) {

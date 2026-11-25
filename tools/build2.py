@@ -458,7 +458,7 @@ def contact():
       <section class="section cinfo-sec" aria-label="Contact details">
         {LINES.format(c='')}
         <div class="container">
-          <div class="cinfo__grid" data-r-group>{ic}
+          <div class="cinfo__grid" data-r-group="fade">{ic}
           </div>
         </div>
       </section>

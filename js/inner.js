@@ -88,8 +88,9 @@
   });
   // staggered groups
   qa('[data-r-group]').forEach(function (group) {
+    var flat = group.getAttribute('data-r-group') === 'fade';   // fade only, so every card stays on the same line
     gsap.from(group.children, {
-      y: 70, opacity: 0, duration: 1.2, stagger: 0.12,
+      y: flat ? 0 : 70, opacity: 0, duration: flat ? 0.9 : 1.2, stagger: 0.12,
       scrollTrigger: { trigger: group, start: 'top 85%', once: true }
     });
   });
