@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clevaro — Professional Home Cleaning Services</title>
+  <meta name="description" content="Clevaro is a premium home cleaning company. A cleaner home, a better everyday — professional, reliable and detail-oriented cleaning designed around your lifestyle.">
+  <meta name="theme-color" content="#10291d">
+  <meta property="og:title" content="Clevaro — Professional Home Cleaning Services">
+  <meta property="og:description" content="A Cleaner Home. A Better Everyday.">
+  <meta property="og:type" content="website">
+
+  <link rel="preload" href="assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="js/vendor/lenis.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/booking.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== MENU OVERLAY ===== -->
+  <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Site menu" aria-hidden="true">
+    <div class="menu__top">
+      <a class="logo" href="#top" data-menu-link aria-label="Clevaro home"><img src="assets/icons/logo-mark.svg" alt=""><span>Clevaro.</span></a>
+      <button class="menu__close" type="button" data-menu-close>Close</button>
+    </div>
+    <ul class="menu__list">
+      <li class="menu__item"><a class="menu__link" href="#top" data-menu-link><small>01</small>Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="about.html" data-menu-link><small>02</small>About</a></li>
+      <li class="menu__item"><a class="menu__link" href="services.html" data-menu-link><small>03</small>Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="pricing.html" data-menu-link><small>04</small>Pricing</a></li>
+      <li class="menu__item"><a class="menu__link" href="blog.html" data-menu-link><small>05</small>Blog</a></li>
+      <li class="menu__item"><a class="menu__link" href="faq.html" data-menu-link><small>06</small>FAQ</a></li>
+      <li class="menu__item"><a class="menu__link" href="contact.html" data-menu-link><small>07</small>Contact</a></li>
+    </ul>
+    <div class="menu__foot">
+      <span>A Cleaner Home. A Better Everyday.</span>
+      <a href="mailto:hello@clevaro.com">hello@clevaro.com</a>
+    </div>
+  </div>
+
+  <div class="page-wrapper" id="top">
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" data-anim="header">
+      <div class="header__row">
+        <div class="header__left">
+          <a class="logo" href="#top" aria-label="Clevaro home"><img src="assets/icons/logo-mark.svg" alt=""><span>Clevaro.</span></a>
+        </div>
+        <nav class="nav" aria-label="Primary">
+          <a class="nav__link is-current" href="index.html">Home</a>
+          <a class="nav__link" href="about.html">About</a>
+          <a class="nav__link" href="services.html">Services</a>
+          <a class="nav__link" href="pricing.html">Pricing</a>
+        </nav>
+        <div class="header__right">
+          <a class="header__cta" href="tel:+16285550147" aria-label="Book a consultation: call +1 (628) 555-0147"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 3.5l2.2-.5c.5-.1 1 .2 1.200.7l1 2.600c.2.500 0 1-.4 1.300L9.300 8.800c1.100 2.300 2.900 4.100 5.200 5.200l1.200-1.300c.3-.4.8-.5 1.300-.4l2.600 1c.5.2.8.700.7 1.200l-.5 2.200c-.1.600-.6 1-1.200 1C10.600 17.600 5.300 12.300 5.600 4.700c0-.6.400-1.100 1-1.200z" stroke="currentColor" stroke-width="1.600" stroke-linejoin="round"/><path d="M14.500 3.500a6 6 0 016 6M14.500 6.500a3 3 0 013 3" stroke="currentColor" stroke-width="1.600" stroke-linecap="round"/></svg><span>Book A Consultation</span></a>
+          <button class="header__book" type="button" data-book aria-label="Book a cleaning"><img src="assets/icons/calendar.svg" alt=""></button>
+          <button class="menu-btn" type="button" data-menu-open aria-label="Open menu" aria-controls="menu"><img src="assets/icons/menu.svg" alt=""></button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+
+      <!-- ===== 1. HERO ===== -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__bg" data-parallax="hero" role="img" aria-label="A professional cleaner at work in a bright, modern home"></div>
+        <div class="section-lines on-dark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="hero__clean" aria-hidden="true"><div class="hero__bg hero__bg--clean"></div></div>
+        <div class="hero__shape" data-anim="shape" tabindex="0" role="slider" aria-label="Drag to reveal the clean photo underneath" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><span class="hero__shape-hint"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l-3 3 3 3M9 5l3-3 3 3M15 19l-3 3-3-3M19 9l3 3-3 3M2 12h20M12 2v20"/></svg>Drag</span></div>
+        <div class="container">
+          <div class="hero__row">
+            <div class="hero__top">
+              <p class="hero__top-text" data-split="words">Spotless every space, Trusted professionals, Carefully scheduled</p>
+            </div>
+            <div class="hero__bottom">
+              <div class="hero__left">
+                <h1 class="hero__title" id="hero-title" data-split="lines">Bring more shine into your home.</h1>
+                <div class="btn-wrap" data-anim="hero-btn">
+                  <a class="btn btn--lime" href="services.html">Explore Services
+                    <span class="btn__icon"><img src="assets/icons/arrow-lime.svg" alt=""><img src="assets/icons/arrow-lime.svg" alt=""></span>
+                  </a>
+                </div>
+              </div>
+              <div class="hero__right">
+                <div class="hero__card" data-anim="hero-card">
+                  <img class="hero__card-accent" src="assets/images/hero/hero-card-accent.avif" alt="" aria-hidden="true">
+                  <div class="hero__card-text">
+                    <h2 class="hero__card-title">Carefully Vetted</h2>
+                    <p class="hero__card-copy">Trained, insured cleaners and eco-safe products chosen for quality and lasting results.</p>
+                  </div>
+                  <a class="round-arrow" href="about.html" aria-label="Learn more about Clevaro"><img src="assets/icons/arrow-light.svg" alt=""><img src="assets/icons/arrow-light.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 1b. VIDEO ===== -->
+      <section class="section vid" id="intro-video" aria-labelledby="vid-lead">
+        <div class="container">
+          <div class="vid__head" data-reveal="head">
+            <p class="vid__lead" id="vid-lead">Clevaro is a trusted home-cleaning team. Every visit follows a careful, simple routine, so you come home to a space that feels fresh. Watch how we work, or jump straight to a plan.</p>
+            <div class="vid__tags">
+              <a class="vid__tag" href="pricing.html">Regular plans</a>
+              <a class="vid__tag" href="services.html#deep">Deep cleaning</a>
+            </div>
+          </div>
+          <div class="vid__stage" data-vid-stage>
+            <video class="vid__media" src="assets/video/clevaro-intro.mp4" poster="assets/video/poster.jpg" muted loop playsinline autoplay preload="metadata" aria-hidden="true"></video>
+            <button class="vid__play" type="button" data-vid-open aria-haspopup="dialog">
+              <svg width="10" height="12" viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0l10 6-10 6z" fill="currentColor"/></svg>
+              <span>Play</span><span class="vid__time">0:10 min</span>
+            </button>
+            <span class="vid__caption">See why homeowners love Clevaro</span>
+          </div>
+        </div>
+      </section>
+
+      <dialog class="vid-modal" id="vid-modal" aria-label="Clevaro intro video">
+        <button class="vid-modal__close" type="button" data-vid-close aria-label="Close video">&times;</button>
+        <video class="vid-modal__video" src="assets/video/clevaro-intro.mp4" poster="assets/video/poster.jpg" controls playsinline preload="none"></video>
+      </dialog>
+
+      <!-- ===== 2. ABOUT ===== -->
+      <section class="section about" id="about" aria-label="About Clevaro">
+        <div class="section-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="container">
+          <div class="about__row">
+            <div class="about__left">
+              <div class="about__img-wrap" data-reveal="image">
+                <img class="about__img" src="assets/images/about/about-1.jpg" width="648" height="816" alt="A Clevaro cleaner polishing a kitchen counter" loading="lazy">
+              </div>
+              <div class="about__text-col" data-reveal="stack">
+                <p class="about__text">We believe a clean home shouldn't be complicated. That's why we bring together trained cleaners, safe products, and reliable scheduling, all in one place.</p>
+                <div class="about__proof">
+                  <div class="about__avatars" aria-hidden="true">
+                    <img src="assets/images/testimonials/avatar-3.jpg" alt="" width="56" height="56" loading="lazy">
+                    <img src="assets/images/testimonials/avatar-2.jpg" alt="" width="56" height="56" loading="lazy">
+                  </div>
+                  <div class="about__proof-text">
+                    <span class="about__proof-title">Trusted by 1k+ clients</span>
+                    <span class="about__rating"><img src="assets/icons/star.svg" alt="">4.9 out of 5.0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about__right">
+              <div class="about__img-wrap about__img-wrap--small" data-reveal="image">
+                <img class="about__img about__img--small" src="assets/images/about/about-2.jpg" width="646" height="560" alt="Freshly mopped floor in a sunlit living room" loading="lazy">
+              </div>
+              <ul class="about__list" data-reveal="stack">
+                <li class="about__item"><img src="assets/icons/about-detail.svg" alt=""><div class="about__item-text"><h3 class="about__item-title">Detail first</h3><p class="about__item-copy">Every corner, every surface.</p></div></li>
+                <li class="about__item"><img src="assets/icons/about-fresh.svg" alt=""><div class="about__item-text"><h3 class="about__item-title">Fresh air inside</h3><p class="about__item-copy">Eco-safe, allergen-aware products.</p></div></li>
+                <li class="about__item"><img src="assets/icons/about-season.svg" alt=""><div class="about__item-text"><h3 class="about__item-title">Every season ready</h3><p class="about__item-copy">Reliable visits all year round.</p></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 3. SERVICES ===== -->
+      <section class="section service" id="services" aria-labelledby="service-title">
+        <div class="section-lines on-white" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="container">
+          <div class="service__row">
+            <div class="section-head" data-reveal="head">
+              <span class="eyebrow">Cleaning Services</span>
+              <h2 class="h2" id="service-title" data-split="chars">More than just clean</h2>
+            </div>
+            <ul class="service__list">
+              <li class="service__item">
+                <article class="service__card">
+                  <div class="service__img-wrap"><img class="service__img" src="assets/images/services/regular-cleaning.jpg" width="2480" height="1100" alt="Cleaner wiping down a bright living room" loading="lazy"></div>
+                  <div class="service__panel">
+                    <div class="service__panel-text">
+                      <h3 class="service__title">Regular Cleaning</h3>
+                      <p class="service__copy">Thoughtful cleaning routines designed around your space and lifestyle.</p>
+                    </div>
+                    <a class="service__arrow" href="services.html#regular" aria-label="Learn more about Regular Cleaning"><img src="assets/icons/arrow-dark.svg" alt=""><img src="assets/icons/arrow-dark.svg" alt=""></a>
+                  </div>
+                </article>
+              </li>
+              <li class="service__item">
+                <article class="service__card">
+                  <div class="service__img-wrap"><img class="service__img" src="assets/images/services/deep-cleaning.jpg" width="2480" height="1100" alt="Cleaner scrubbing tiles during a deep clean" loading="lazy"></div>
+                  <div class="service__panel">
+                    <div class="service__panel-text">
+                      <h3 class="service__title">Deep Cleaning</h3>
+                      <p class="service__copy">Turn your busiest rooms into a fresh, spotless, healthy living space.</p>
+                    </div>
+                    <a class="service__arrow" href="services.html#deep" aria-label="Learn more about Deep Cleaning"><img src="assets/icons/arrow-dark.svg" alt=""><img src="assets/icons/arrow-dark.svg" alt=""></a>
+                  </div>
+                </article>
+              </li>
+              <li class="service__item">
+                <article class="service__card">
+                  <div class="service__img-wrap"><img class="service__img" src="assets/images/services/move-in-out.jpg" width="2480" height="1100" alt="Empty apartment cleaned and ready for move-in" loading="lazy"></div>
+                  <div class="service__panel">
+                    <div class="service__panel-text">
+                      <h3 class="service__title">Move-In / Move-Out</h3>
+                      <p class="service__copy">Hand over or settle into a home that is spotless and stress-free.</p>
+                    </div>
+                    <a class="service__arrow" href="services.html#move" aria-label="Learn more about Move-In / Move-Out Cleaning"><img src="assets/icons/arrow-dark.svg" alt=""><img src="assets/icons/arrow-dark.svg" alt=""></a>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 4. HOW IT WORKS ===== -->
+      <section class="section work" id="process" aria-labelledby="work-title">
+        <div class="section-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="work__wrap" data-work>
+          <div class="container">
+            <div class="work__row">
+              <div class="work__left">
+                <span class="eyebrow">How it works</span>
+                <h2 class="work__title" id="work-title" data-split="words">Three steps. One spotless home.</h2>
+              </div>
+              <div class="work__cards">
+                <article class="work__card">
+                  <span class="work__step">01 — Read the home</span>
+                  <div class="work__body"><img src="assets/icons/work-walkthrough.svg" alt=""><div class="work__body-text"><h3 class="work__card-title">Home Walkthrough</h3><p class="work__card-copy">We assess rooms, surfaces, pets, and your cleaning priorities.</p></div></div>
+                </article>
+                <article class="work__card">
+                  <span class="work__step">02 — Layer the clean</span>
+                  <div class="work__body"><img src="assets/icons/work-layers.svg" alt=""><div class="work__body-text"><h3 class="work__card-title">Plan in Layers</h3><p class="work__card-copy">A thoughtful checklist builds fresh, healthy rooms, visit after visit.</p></div></div>
+                </article>
+                <article class="work__card">
+                  <span class="work__step">03 — Clean and hand off</span>
+                  <div class="work__body"><img src="assets/icons/work-sparkle.svg" alt=""><div class="work__body-text"><h3 class="work__card-title">Clean &amp; Inspect</h3><p class="work__card-copy">We clean everything, check every detail, and keep it spotless.</p></div></div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 5. CALL TO ACTION ===== -->
+      <section class="section cta" id="plans" aria-label="Cleaning plans">
+        <div class="cta__wrap" data-cta>
+          <div class="cta__bg" data-parallax="cta" role="img" aria-label="A bright, spotless living room"></div>
+          <div class="container">
+            <div class="cta__row">
+              <div class="cta__left">
+                <div class="cta__card cta__card--top" data-reveal="card">
+                  <h2 class="cta__title">Cleaning smarter for better living</h2>
+                  <p class="cta__copy">Practical tips, seasonal checklists, and simple ideas to help you get more from your home.</p>
+                </div>
+                <div class="cta__card cta__card--btn" data-reveal="card">
+                  <a class="btn btn--dark" href="pricing.html">Explore Plans
+                    <span class="btn__icon"><img src="assets/icons/arrow-dark.svg" alt=""><img src="assets/icons/arrow-dark.svg" alt=""></span>
+                  </a>
+                </div>
+              </div>
+              <div class="cta__wordmark" aria-hidden="true" data-anim="wordmark"><img src="assets/icons/cta-mark.svg" alt=""><span>Clevaro.</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 6. CATEGORIES ===== -->
+      <section class="section category" id="categories" aria-labelledby="category-title">
+        <div class="section-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="container">
+          <div class="category__row">
+            <div class="section-head" data-reveal="head">
+              <span class="eyebrow">Explore our services</span>
+              <h2 class="h2 category__title" id="category-title" data-split="words">Find your perfect clean<br>For Every Room</h2>
+            </div>
+            <ul class="category__list">
+              <li class="category__card" data-reveal="cat">
+                <div class="category__img-wrap"><img class="category__img" src="assets/images/categories/kitchen.jpg" width="939" height="1049" alt="Spotless modern kitchen" loading="lazy"></div>
+                <div class="category__label"><h3 class="category__name">Kitchen Cleaning</h3><p class="category__copy">Degreased, sanitised and gleaming from counters to appliances.</p></div>
+              </li>
+              <li class="category__card" data-reveal="cat">
+                <div class="category__img-wrap"><img class="category__img" src="assets/images/categories/bathroom.jpg" width="939" height="1261" alt="Bright, freshly cleaned bathroom" loading="lazy"></div>
+                <div class="category__label"><h3 class="category__name">Bathroom Cleaning</h3><p class="category__copy">Every tile and fixture cared for, so your bathroom feels brand new.</p></div>
+              </li>
+              <li class="category__card" data-reveal="cat">
+                <div class="category__img-wrap"><img class="category__img" src="assets/images/categories/apartment.jpg" width="939" height="1066" alt="Tidy, light-filled apartment living area" loading="lazy"></div>
+                <div class="category__label"><h3 class="category__name">Apartment Cleaning</h3><p class="category__copy">Start fresh with a tidy, comfortable space. Built your way.</p></div>
+              </li>
+              <li class="category__card" data-reveal="cat">
+                <div class="category__img-wrap"><img class="category__img" src="assets/images/categories/office.jpg" width="939" height="866" alt="Clean, organised office workspace" loading="lazy"></div>
+                <div class="category__label"><h3 class="category__name">Office Cleaning</h3><p class="category__copy">Simple, reliable cleaning for everyday workspaces. Built for easy care.</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 6b. GALLERY ===== -->
+      <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="container">
+          <div class="section-head gallery__head" data-reveal="head">
+            <span class="eyebrow">Gallery</span>
+            <h2 class="h2 gallery__title" id="gallery-title" data-split="words">Better homes start<br>with Clevaro.</h2>
+          </div>
+          <div class="gallery__grid">
+            <div class="gallery__col" data-reveal="gal-col">
+              <ul class="gallery__track">
+                <li><img src="assets/images/gallery/gallery-16.jpg" width="384" height="423" alt="Sunlit spotless living room" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-03.jpg" width="384" height="423" alt="Gloved hand spraying a spotless counter" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-06.jpg" width="384" height="423" alt="Vacuuming a plush living room rug" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-09.jpg" width="384" height="423" alt="Gleaming modern kitchen" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-12.jpg" width="384" height="423" alt="Cleaner wiping an office desk" loading="lazy"></li>
+              </ul>
+            </div>
+            <div class="gallery__col" data-reveal="gal-col">
+              <ul class="gallery__track">
+                <li><img src="assets/images/gallery/gallery-02.jpg" width="384" height="423" alt="Fresh green hydrangea in a bright living room" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-04.jpg" width="384" height="423" alt="Cleaner tidying a bright room" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-07.jpg" width="384" height="423" alt="Steam cleaning a tiled floor" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-10.jpg" width="384" height="423" alt="Polishing a chrome bathroom tap" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-13.jpg" width="384" height="423" alt="Eco-friendly cleaning supplies" loading="lazy"></li>
+              </ul>
+            </div>
+            <div class="gallery__col" data-reveal="gal-col">
+              <ul class="gallery__track">
+                <li><img src="assets/images/gallery/gallery-05.jpg" width="384" height="423" alt="Cleaner folding fresh white linen" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-08.jpg" width="384" height="423" alt="Cleaner wiping a window sill in an empty apartment" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-11.jpg" width="384" height="423" alt="Mopping a wooden apartment floor" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-14.jpg" width="384" height="423" alt="Fresh, tidy living room" loading="lazy"></li>
+                <li><img src="assets/images/gallery/gallery-15.jpg" width="384" height="423" alt="Neatly folded towels on a shelf" loading="lazy"></li>
+              </ul>
+            </div>
+          </div>
+          <p class="gallery__copy" data-reveal="head">We bring thoughtful cleaning, careful attention and trusted routines together to keep your home fresh, tidy, and ready to enjoy.</p>
+        </div>
+      </section>
+
+      <!-- ===== 7. TESTIMONIALS ===== -->
+      <section class="section testimonial" id="reviews" aria-labelledby="reviews-title">
+        <div class="section-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="container">
+          <div class="section-head testimonial__head" data-reveal="head">
+            <span class="eyebrow">Client reviews</span>
+            <h2 class="h2" id="reviews-title" data-split="words">Loved by people who care<br>about their home.</h2>
+          </div>
+          <div class="testimonial__row">
+            <div class="slider" data-slider aria-roledescription="carousel" aria-label="Client reviews">
+              <div class="slider__mask">
+                <div class="slider__track" aria-live="off">
+                  <div class="slider__slide" role="group" aria-roledescription="slide" aria-label="Slide 1 of 2">
+                    <div class="slide">
+                      <div class="slide__media">
+                        <figure class="slide__shot"><img src="assets/images/testimonials/living-before.jpg" width="816" height="612" alt="Living room before cleaning" loading="lazy"><figcaption class="slide__tag">Before</figcaption></figure>
+                        <figure class="slide__shot"><img src="assets/images/testimonials/living-after.jpg" width="816" height="612" alt="Living room after cleaning" loading="lazy"><figcaption class="slide__tag slide__tag--after">After</figcaption></figure>
+                      </div>
+                      <div class="slide__body">
+                        <blockquote class="slide__quote" style="margin:0">&ldquo;From the first visit to the final result, everything was handled beautifully. Our home now feels like somewhere we truly love spending time.&rdquo;</blockquote>
+                        <div class="slide__foot">
+                          <div class="slide__author">
+                            <img class="slide__avatar" src="assets/images/testimonials/avatar-1.jpg" width="436" height="436" alt="Emma Carter" loading="lazy">
+                            <div class="slide__who"><span class="slide__name">Emma Carter</span><span class="slide__role">Deep Clean <i class="slide__dot"></i> Portland, OR</span></div>
+                          </div>
+                          <div class="slide__arrows">
+                            <button class="slide__arrow" type="button" data-prev aria-label="Previous review"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8H3m0 0l4-4M3 8l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                            <button class="slide__arrow" type="button" data-next aria-label="Next review"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10m0 0L9 4m4 4l-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider__slide" role="group" aria-roledescription="slide" aria-label="Slide 2 of 2">
+                    <div class="slide">
+                      <div class="slide__media">
+                        <figure class="slide__shot"><img src="assets/images/testimonials/kitchen-before.jpg" width="816" height="612" alt="Kitchen before cleaning" loading="lazy"><figcaption class="slide__tag">Before</figcaption></figure>
+                        <figure class="slide__shot"><img src="assets/images/testimonials/kitchen-after.jpg" width="816" height="612" alt="Kitchen after cleaning" loading="lazy"><figcaption class="slide__tag slide__tag--after">After</figcaption></figure>
+                      </div>
+                      <div class="slide__body">
+                        <blockquote class="slide__quote" style="margin:0">&ldquo;By the second month, I stopped worrying about the mess and began enjoying a home that always feels fresh and welcoming.&rdquo;</blockquote>
+                        <div class="slide__foot">
+                          <div class="slide__author">
+                            <img class="slide__avatar" src="assets/images/testimonials/avatar-2.jpg" width="436" height="436" alt="Mia Bennett" loading="lazy">
+                            <div class="slide__who"><span class="slide__name">Mia Bennett</span><span class="slide__role">Kitchen Reset <i class="slide__dot"></i> Portland, OR</span></div>
+                          </div>
+                          <div class="slide__arrows">
+                            <button class="slide__arrow" type="button" data-prev aria-label="Previous review"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8H3m0 0l4-4M3 8l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                            <button class="slide__arrow" type="button" data-next aria-label="Next review"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10m0 0L9 4m4 4l-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial__stats" data-reveal="head">
+              <div class="stat"><span class="stat__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="stat__label">Average client rating 4.9</span></div>
+              <div class="stat"><span class="stat__big">100%</span><span class="stat__label">Satisfaction guarantee</span></div>
+              <div class="stat"><span class="stat__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="stat__label">Excellent service rating</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 8. BLOG ===== -->
+      <section class="section blog" id="blog" aria-labelledby="blog-title">
+        <div class="section-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="container">
+          <div class="blog__row">
+            <div class="section-head" data-reveal="head">
+              <span class="eyebrow">Cleaning insights</span>
+              <h2 class="h2" id="blog-title" data-split="words">Ideas for a Fresher Home</h2>
+            </div>
+            <div class="blog__list">
+              <article class="post" data-reveal="post">
+                <div class="post__img-wrap"><img class="post__img" src="assets/images/blog/blog-1.jpg" width="646" height="646" alt="Cleaner preparing eco-safe products" loading="lazy"></div>
+                <div class="post__body"><span class="post__meta">5 min read · Nov 12, 2026</span><h3 class="post__title">How often should you deep clean your home?</h3><a class="post__more" href="blog-single.html">Read More <img src="assets/icons/arrow-right.svg" alt=""></a></div>
+              </article>
+              <article class="post" data-reveal="post">
+                <div class="post__img-wrap"><img class="post__img" src="assets/images/blog/blog-2.jpg" width="848" height="668" alt="Person organising a tidy shelf" loading="lazy"></div>
+                <div class="post__body"><span class="post__meta">Nov 12, 2026 · Cleaning guide</span><h3 class="post__title">How to build a routine that works</h3><a class="post__more" href="blog-single.html">Read More <img src="assets/icons/arrow-right.svg" alt=""></a></div>
+              </article>
+              <article class="post" data-reveal="post">
+                <div class="post__img-wrap"><img class="post__img" src="assets/images/blog/blog-3.jpg" width="646" height="756" alt="Cleaning supplies on a bright counter" loading="lazy"></div>
+                <div class="post__body"><span class="post__meta">Nov 12, 2026 · Cleaning guide</span><h3 class="post__title">7 easy habits for a cleaner home</h3><a class="post__more" href="blog-single.html">Read More <img src="assets/icons/arrow-right.svg" alt=""></a></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ===== 9. FOOTER ===== -->
+    <footer class="footer" id="contact">
+      <div class="footer__bg" data-parallax="footer" role="img" aria-label="A cleaner smiling in a bright home"></div>
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__cta">
+            <h2 class="footer__title" data-split="words">Let’s create a home that <span class="accent">Shines beautifully</span></h2>
+            <div class="btn-wrap">
+              <button class="btn btn--lime" type="button" data-book>Book a Cleaning
+                <span class="btn__icon"><img src="assets/icons/arrow-lime.svg" alt=""><img src="assets/icons/arrow-lime.svg" alt=""></span>
+              </button>
+            </div>
+          </div>
+          <div class="footer__card" data-footer-card>
+            <div class="footer__top">
+              <div class="footer__col">
+                <a class="logo logo--footer" href="#top" aria-label="Clevaro home"><img src="assets/icons/logo-mark.svg" alt=""><span>Clevaro.</span></a>
+                <p class="footer__about">Premium home cleaning, designed around your lifestyle. A cleaner home, a better everyday.</p>
+              </div>
+              <div class="footer__col">
+                <span class="footer__label">Newsletter</span>
+                <form class="newsletter" data-newsletter novalidate>
+                  <label class="sr-only" for="nl-email">Email address</label>
+                  <input id="nl-email" type="email" name="email" placeholder="Email Address" autocomplete="email" required>
+                  <button type="submit">Sign up</button>
+                </form>
+                <p class="newsletter__msg" role="status" aria-live="polite"></p>
+              </div>
+              <div class="footer__col footer__col--wide">
+                <span class="footer__label">Quick links</span>
+                <div class="footer__links">
+                  <a href="about.html">About</a><a href="blog.html">Blog</a>
+                  <a href="services.html">Services</a><a href="pricing.html">Pricing</a>
+                  <a href="faq.html">FAQ</a><a href="contact.html">Contact</a>
+                </div>
+              </div>
+              <div class="footer__col footer__col--wide">
+                <span class="footer__label">Get in touch</span>
+                <a class="footer__phone" href="tel:+16285550147">+1 (628) 555-0147</a>
+                <a class="footer__mail" href="mailto:hello@clevaro.com">hello@clevaro.com</a>
+                <span class="footer__label gap-top">Office</span>
+                <address class="footer__address" style="font-style:normal">24 Maple Avenue,<br>Portland, OR 97205</address>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <span>© 2026 Clevaro. All rights reserved.</span>
+              <div class="footer__social">
+                <a href="#" aria-label="Facebook"><img src="assets/icons/facebook.svg" alt=""></a>
+                <a href="#" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt=""></a>
+                <a href="#" aria-label="Pinterest"><img src="assets/icons/pinterest.svg" alt=""></a>
+                <a href="#" aria-label="X"><img src="assets/icons/x.svg" alt=""></a>
+              </div>
+              <div class="footer__bottom-links"><a href="#">Privacy policy</a><a href="#">Terms</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/vendor/SplitText.min.js"></script>
+  <script src="js/vendor/lenis.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/video.js"></script>
+  <script src="js/booking.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/hero-lens.js"></script>
+</body>
+</html>
