@@ -213,7 +213,10 @@
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 0 20px;
+  width: 100%;
+  max-width: 1310px;
+  margin-inline: auto;
+  padding: 0 14px;
   border-radius: var(--radius-card);
   overflow: hidden;
   isolation: isolate;
